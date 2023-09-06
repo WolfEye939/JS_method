@@ -1,0 +1,26 @@
+@font-face {
+    font-family: shrek;
+    src: url(SHREK.TTF);
+}
+
+:root { --shrek:#B2D307 }
+
+
+
+h1, p { 
+    color:var(--shrek);
+    background-color: rgba(0,0,0, 50%); 
+}
+
+h1 {
+    font-size: 50pt;
+    text-align: center;
+    font-family: shrek;
+}
+
+
+
+body {
+    background-image: url(shrekmovie.gif);
+    background-size: 480px 480px;
+}
