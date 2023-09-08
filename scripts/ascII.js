@@ -113,24 +113,24 @@ function duke()
         console.log("                            !&&#BPYJYJJJJ?????JYYYYYYYYJJJJJJJ??JJJJ??????????J5GGBBGGB##BBGPPPP55YYYJ??JJY5PP55PGP555PPBJ:                           ");
         console.log("                            ^G##BPYJJJ???????JJYYYYYYJJJJYJ?????????JJY55PPPGGB######BGPPPYJ?77!~!J5PP5555Y5P555PPPP555PB!                            ");
         console.log("                            .7BBGG5J?J???????JJY55YYYJ?JYYJJJJJJJJJJJJJJJJJJJJJJJJYJYYYYJ?7!!!7?YPGBBGP55PPPP55555PP55Y5G^                            ");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
-        console.log("");
+        console.log("                              :!YP5YJJ???????JJY55JJJJJYY?!~!7???7777!!!!777??77777??JYYYY5PPPPGGGGPPGGGPPPPPP55555555557.                            ");
+        console.log("                                .~J55J????????JYYYJJJJJJJ7!~!7??????7777777???????JJ5B#&&###BBGGPGGGGGGP555PP5555YYY55J^                              ");
+        console.log("                                   ^J5YJ??????JJYYJJYYJ?JJ??JJJJJJJJJJJJYY5555PGGBBB####&&#BGPPPGGBBBGP555555555YYY5Y~.                               ");
+        console.log("                                     ^?YJ???????JJ?JYYYJJJJJJJYJJ??????7?YYY55PGGGGGPPGBBGP55PPGBBBBGP555555555YYYY7.                                 ");
+        console.log("                                       :7JJ????JJJJJJJYYYJJ???JJJJJJ?77!!!777???JJJJJJ??JJYPPGGBBBBGGP55555555YYJJ^                                   ");
+        console.log("                                         .!????JJJ??JJJJJJJ???JJJJJJ??777!!!~~~~~!!!~~!7JYPGGBBBBGGPPPPPPP5P5JJJ!.                                    ");
+        console.log("                                           .~7?7?????????????????????????7!!!!~~!!!!7??YY5PPGGBBGGP55PPGPP55YJ?:                                      ");
+        console.log("                                              ^!?77777777????????????JJJJJ???77??JYY5P555PPGGGPPPP55PPGGP5YYJ!                                        ");
+        console.log("                                                :!777777777???77????JJJJYY555PPGGBBBB####BBGPPPP55PPGGGP5YY7:                                         ");
+        console.log("                                                  :!777777777777?????JJYY5PGBBBB###B#&&&###BGP555PPGGP5YY?^                                           ");
+        console.log("                                                    .~777777!7777?????JJYPPGGGGGBBBBBB####BBGP555PPPPYYJ!.                                            ");
+        console.log("                                                      .^!!!!!777777777?JJ55PGBBGGGPPPGGBBBBGP5Y5PPP5YY?:                                              ");
+        console.log("                                                        .^!77!!77777777??Y5PGB#BG5YYY5PGGGP555Y5P5YYJ~.                                               ");
+        console.log("                                                           :~!!!!!!!!!77??JYPGGPYJ77JY5PP55YYY555YJ7.                                                 ");
+        console.log("                                                             :~!77777777????J555J???JYYYJJJJJJYJ?7^                                                   ");
+        console.log("                                                               .:::::^^~~~~^^~~~~~!!!!!!!!!!77??!.                                                    ");
+        console.log("                                                                                             ..                                                       ");
+        console.log("                                                                                                                                                      ");
     }
 
 
@@ -158,23 +158,14 @@ function duke()
 
 
 
-                              :!YP5YJJ???????JJY55JJJJJYY?!~!7???7777!!!!777??77777??JYYYY5PPPPGGGGPPGGGPPPPPP55555555557.                            
-                                .~J55J????????JYYYJJJJJJJ7!~!7??????7777777???????JJ5B#&&###BBGGPGGGGGGP555PP5555YYY55J^                              
-                                   ^J5YJ??????JJYYJJYYJ?JJ??JJJJJJJJJJJJYY5555PGGBBB####&&#BGPPPGGBBBGP555555555YYY5Y~.                               
-                                     ^?YJ???????JJ?JYYYJJJJJJJYJJ??????7?YYY55PGGGGGPPGBBGP55PPGBBBBGP555555555YYYY7.                                 
-                                       :7JJ????JJJJJJJYYYJJ???JJJJJJ?77!!!777???JJJJJJ??JJYPPGGBBBBGGP55555555YYJJ^                                   
-                                         .!????JJJ??JJJJJJJ???JJJJJJ??777!!!~~~~~!!!~~!7JYPGGBBBBGGPPPPPPP5P5JJJ!.                                    
-                                           .~7?7?????????????????????????7!!!!~~!!!!7??YY5PPGGBBGGP55PPGPP55YJ?:                                      
-                                              ^!?77777777????????????JJJJJ???77??JYY5P555PPGGGPPPP55PPGGP5YYJ!                                        
-                                                :!777777777???77????JJJJYY555PPGGBBBB####BBGPPPP55PPGGGP5YY7:                                         
-                                                  :!777777777777?????JJYY5PGBBBB###B#&&&###BGP555PPGGP5YY?^                                           
-                                                    .~777777!7777?????JJYPPGGGGGBBBBBB####BBGP555PPPPYYJ!.                                            
-                                                      .^!!!!!777777777?JJ55PGBBGGGPPPGGBBBBGP5Y5PPP5YY?:                                              
-                                                        .^!77!!77777777??Y5PGB#BG5YYY5PGGGP555Y5P5YYJ~.                                               
-                                                           :~!!!!!!!!!77??JYPGGPYJ77JY5PP55YYY555YJ7.                                                 
-                                                             :~!77777777????J555J???JYYYJJJJJJYJ?7^                                                   
-                                                               .:::::^^~~~~^^~~~~~!!!!!!!!!!77??!.                                                    
-                                                                                             ..                                                       
+
+
+
+
+
+
+
+
                                                                                                                                                       
                                                                                                                                                       
                                                                                                                                                       
