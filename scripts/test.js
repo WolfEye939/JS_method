@@ -22,8 +22,7 @@ function popXmpl()
         console.log(chores2);
     }
 
-function arraymethodPlus()
-    {
+function arraymethodPlus() {
         var whitespace = '              '
         const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
     
@@ -56,14 +55,17 @@ function arraymethodPlus()
             console.log(whitespace + whitespace + whitespace + pastaIndex);
             console.log();
         console.log('╚═══════════════════════════════════════════════════════════════════════════════════════╝');
-    }
+}
+
+
+
+function forloop() {
+    for (let count = 0 + 5; count < 11; count++) {
+        console.log(count);
+      }
+}
 
 function forLoopCountdown() {
     for (let counter = 3; counter >= 0; counter--) 
-    { console.log(counter); }
-}
-
-function forloop() {
-    for (let counter = 0; counter = 10; counter++)
     { console.log(counter); }
 }
