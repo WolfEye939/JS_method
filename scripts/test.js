@@ -25,7 +25,6 @@ function popXmpl()
 function arraymethodPlus()
     {
         var whitespace = '              '
-
         const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
     
         console.log('╔══════════════════════════════════╤ Unmodified ╤═══════════════════════════════════════╗');
@@ -59,30 +58,12 @@ function arraymethodPlus()
         console.log('╚═══════════════════════════════════════════════════════════════════════════════════════╝');
     }
 
+function forLoopCountdown() {
+    for (let counter = 3; counter >= 0; counter--) 
+    { console.log(counter); }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-   
+function forloop() {
+    for (let counter = 0; counter = 10; counter++)
+    { console.log(counter); }
+}
