@@ -114,3 +114,11 @@ function breakKey()
         }
         console.log("And if you don't know, now you know.");
     };
+
+function forOfLoop() 
+    {
+        const hobbies = ['singing', 'eating', 'quidditch', 'writing'];
+ 
+        for (const hobby of hobbies) 
+            { console.log(`I enjoy ${hobby}.`); }
+    }

@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "[Steam Classic]": {}
+    },
+    
+    "“terminal.external.osxExec”": "iTerm.app",
+    "“terminal.integrated.shell.osx”": "/bin/zsh",
+    "“terminal.integrated.fontFamily”": "'FixedSys Regular'",
+    "debugConsole.integrated.FontFamily": "'FixedSys Regular'",
+}
