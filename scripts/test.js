@@ -122,3 +122,10 @@ function forOfLoop()
         for (const hobby of hobbies) 
             { console.log(`I enjoy ${hobby}.`); }
     }
+function objectliteral() 
+    {
+        let fasterShip = {
+            'Fuel Type': 'Turbo Fuel',
+            color: 'silver'
+        }
+    }
