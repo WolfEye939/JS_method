@@ -118,7 +118,6 @@ function breakKey()
 function forOfLoop() 
     {
         const hobbies = ['singing', 'eating', 'quidditch', 'writing'];
- 
         for (const hobby of hobbies) 
             { console.log(`I enjoy ${hobby}.`); }
     }
@@ -127,6 +126,16 @@ function objectliteral()
     {
         let fasterShip = {
             'Fuel Type': 'Turbo Fuel',
-            color: 'silver'
+            color: 'silver',
+            imposter: 'sus',
+            amoegus: 7
         }
+        const lorem = fasterShip.imposter;      // Accesses a string value
+        const ipsum = fasterShip.amoegus;       // Accesses a numeric value
+        function Mogus() {
+            console.log(lorem);                 // Prints a string value
+            console.log(ipsum);                 // Prints a numeric value
+        };
+
+        Mogus();
     }
