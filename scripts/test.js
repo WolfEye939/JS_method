@@ -124,18 +124,34 @@ function forOfLoop()
 
 function objectliteral() 
     {
-        let fasterShip = {
+        // Creates fasterShip object
+        fasterShip = {
             'Fuel Type': 'Turbo Fuel',
             color: 'silver',
             imposter: 'sus',
-            amoegus: 7
+            amoegus: 7,
+            'is sus': false, 
         }
-        const lorem = fasterShip.imposter;      // Accesses a string value
-        const ipsum = fasterShip.amoegus;       // Accesses a numeric value
-        function Mogus() {
-            console.log(lorem);                 // Prints a string value
-            console.log(ipsum);                 // Prints a numeric value
-        };
+            // Retrieves properties from fasterShip object, and stores them as separate variables
+            let lorem = fasterShip.imposter;
+            let ipsum = fasterShip.amoegus;
+            let swaws = fasterShip['is sus'];
+            
+            //shows how to modify object properties
+            function param_change() {
+                fasterShip.alan = 'please add details';                 // create new alan property
 
-        Mogus();
-    }
+                let agent47 = fasterShip.alan;      // see line 135
+                console.log(agent47);
+                delete fasterShip.agent47;       // removes property
+            }
+
+        function print()                        
+        {
+            console.log(lorem);         // Prints a string value
+            console.log(ipsum);         // Prints a numeric value
+            console.log(swaws);
+        };
+ 
+        print();
+    };
