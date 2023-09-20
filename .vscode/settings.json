@@ -5,6 +5,9 @@
     
     "“terminal.external.osxExec”": "iTerm.app",
     "“terminal.integrated.shell.osx”": "/bin/zsh",
-    "“terminal.integrated.fontFamily”": "'FixedSys Regular'",
+    "“terminal.integrated.fontFamily”": "'XBOX Original Bold'",
     "debugConsole.integrated.FontFamily": "'FixedSys Regular'",
+    "editor.fontFamily": "'XBOX Original Bold'",
+    "workbench.settings.openDefaultKeybindings": true //'Courier New', monospace
+
 }

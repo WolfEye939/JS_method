@@ -122,6 +122,7 @@ function forOfLoop()
         for (const hobby of hobbies) 
             { console.log(`I enjoy ${hobby}.`); }
     }
+
 function objectliteral() 
     {
         let fasterShip = {
