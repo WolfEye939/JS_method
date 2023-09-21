@@ -2,7 +2,9 @@
 
     function dummyText() { console.log("lorem ipsum"); }
 
-    function conWipe() { console.clear(); }    
+    function conWipe() { console.clear(); }
+
+    var whitespace = '              ';
 
 // ╚═════════════════════════════════════════════════════════════════════════╝
 
@@ -155,3 +157,18 @@ function objectliteral()
  
         print();
     };
+
+function objectMethod() {
+    let retreatMessage = 'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
+
+    const alienShip = {
+        retreat () { console.log(retreatMessage); },
+        takeOff () { console.log('Spim... Borp... Glix... Blastoff!'); } 
+    };
+
+    function alienLeave() {
+        alienShip.retreat();
+        alienShip.takeOff();
+    };
+    alienLeave();
+}
