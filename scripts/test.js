@@ -172,3 +172,27 @@ function objectMethod() {
     };
     alienLeave();
 }
+
+    function nestedObject() {
+        const inception = {
+            layer1: {
+                firstlayer () { console.log('just'); }
+            },
+            layer2: {
+                layer2a: {
+                    secondlayer () {console.log(whitespace + 'like');}
+                }
+            },
+            layer3: {
+                layer3a: {
+                    layer3b: {
+                        thirdlayer () { console.log(whitespace + whitespace + 'Inception');}
+                    }
+                }
+            }
+        }
+
+        inception.layer1.firstlayer();
+        inception.layer2.layer2a.secondlayer();
+        inception.layer3.layer3a.layer3b.thirdlayer();
+    }
