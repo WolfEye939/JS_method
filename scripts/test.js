@@ -5,6 +5,7 @@
     function conWipe() { console.clear(); }
 
     var whitespace = '              ';
+    var newLine = '';
 
 // ╚═════════════════════════════════════════════════════════════════════════╝
 
@@ -283,3 +284,51 @@ function destructAssign() {
       
     functionality.beep();
 }
+
+
+function TeamStats() {
+
+    const team = {
+        _players: 
+        [
+            { firstName: 'pete', lastName: 'Wheeler', age: 54 },
+            { firstName: 'joe', lastName: 'momma', age: 69 },
+            { firstName: 'hugh', lastName: 'Janus', age: 34 }
+        ],
+
+        _games: 
+        [
+            {opponent: 'jeets', teamPoints: 42, opponentPoints: 27},
+            {opponent: 'giiants', teamPoints: 45, opponentPoints: 12},
+            {opponent: 'Eeagles', teamPoints: 31, opponentPoints: 15}
+        ],
+        get players() { return this._players; },
+        get games() { return this._games; },
+
+        addPlayer(newFirstName, newLastName, newAge) {
+            let player = 
+            {
+                firstName: newFirstName,
+                lastName: newLastName,
+                age: newAge
+            };
+            this.players.push(player);
+        },
+        addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+            let game = 
+            {
+            opponent: newOpponent,
+            teamPoints: newTeamPoints,
+            opponentPoints: newOpponentPoints
+            };
+            this.games.push(game);
+        }
+    };
+        team.addPlayer('dat', 'boi', 76);
+        console.log(team.players);
+
+        console.log(newLine);
+
+        team.addGame('solidsnake', 21, 69);
+        console.log(team.games);
+};
