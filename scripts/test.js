@@ -287,7 +287,6 @@ function destructAssign() {
 
 
 function TeamStats() {
-
     const team = {
         _players: 
         [
@@ -331,4 +330,25 @@ function TeamStats() {
 
         team.addGame('solidsnake', 21, 69);
         console.log(team.games);
+};
+
+function indexFindMethod() {
+    const animals = 
+        [
+            'hippo', 
+            'tiger', 
+            'lion', 
+            'seal', 
+            'cheetah', 
+            'monkey', 
+            'salamander', 
+            'elephant'
+        ];
+    const foundAnimal = animals.findIndex(
+        animal => { return animal === 'elephant'; }
+    );
+
+    const startsWithS = animals.findIndex(
+        animal => { return animal[0] === 's' ? true : false;}
+    );
 };
