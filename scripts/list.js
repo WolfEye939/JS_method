@@ -13,7 +13,7 @@ var newLine = '';
 console.info('use the printlist function to see a list of all functions to execute in the console');
 
 function printlist() {
-    console.log("╔══ list of current functions ══╗");
+    console.log("╔══ list of sample functions ══╗");
 
     const samples = 
     [
@@ -37,12 +37,24 @@ function printlist() {
         'propValShort',
         'destructAssign',
         'TeamStats',
-        'indexFindMethod'
+        'indexFindMethod',
+        'reduceMethod',
+    ]
+
+
+    const scenario = 
+    [
+        'TeamStats',
+        'funcFactory',
+        'grammarChecker'
     ]
 
     samples.forEach 
-        ( samples => console.log(indent + samples) )
-        
+        ( samples => console.log(indent + samples) );
+
+        console.log('╠═══════════▼Scenarios▼═════════╣');
+    scenario.forEach
+        ( scenario => console.log(indent + scenario) );
     console.log('╚═══════════════════════════════╝');
 }
 

@@ -9,7 +9,6 @@
 
 h1, p { 
     color:var(--shrek);
-    background-color: rgba(0,0,0, 50%); 
 }
 
 h1 {
@@ -21,6 +20,28 @@ h1 {
 
 
 body {
-    background-image: url(shrekmovie.gif);
-    background-size: 480px 480px;
+    background-image: url(background.gif);
+    background-color: rgb(73, 73, 73);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    position:absolute;
+
 }
+
+@media screen and (min-width: 1920px) {
+    body {background-size: 1024px, 1024px;}
+}
+
+@media screen and (min-width: 108-px) {
+    body {background-size: 800px, 800px;}
+}
+/*
+@media screen and (min-width: 800px) {
+    body {background-size: 512px, 512px;}
+}
+
+@media screen and (min-width: 480px) {
+    body {background-size: 128px, 128px;}
+}
+*/

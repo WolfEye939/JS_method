@@ -285,70 +285,17 @@ function destructAssign() {
     functionality.beep();
 }
 
+function reduceMethod() {
+    const newNumbers = [1, 3, 5, 7];
 
-function TeamStats() {
-    const team = {
-        _players: 
-        [
-            { firstName: 'pete', lastName: 'Wheeler', age: 54 },
-            { firstName: 'joe', lastName: 'momma', age: 69 },
-            { firstName: 'hugh', lastName: 'Janus', age: 34 }
-        ],
-
-        _games: 
-        [
-            {opponent: 'jeets', teamPoints: 42, opponentPoints: 27},
-            {opponent: 'giiants', teamPoints: 45, opponentPoints: 12},
-            {opponent: 'Eeagles', teamPoints: 31, opponentPoints: 15}
-        ],
-        get players() { return this._players; },
-        get games() { return this._games; },
-
-        addPlayer(newFirstName, newLastName, newAge) {
-            let player = 
+    const newSum = newNumbers.reduce (
+        (accumulator, currentValue) => 
             {
-                firstName: newFirstName,
-                lastName: newLastName,
-                age: newAge
-            };
-            this.players.push(player);
-        },
-        addGame(newOpponent, newTeamPoints, newOpponentPoints) {
-            let game = 
-            {
-            opponent: newOpponent,
-            teamPoints: newTeamPoints,
-            opponentPoints: newOpponentPoints
-            };
-            this.games.push(game);
-        }
-    };
-        team.addPlayer('dat', 'boi', 76);
-        console.log(team.players);
-
-        console.log(newLine);
-
-        team.addGame('solidsnake', 21, 69);
-        console.log(team.games);
-};
-
-function indexFindMethod() {
-    const animals = 
-        [
-            'hippo', 
-            'tiger', 
-            'lion', 
-            'seal', 
-            'cheetah', 
-            'monkey', 
-            'salamander', 
-            'elephant'
-        ];
-    const foundAnimal = animals.findIndex(
-        animal => { return animal === 'elephant'; }
+                console.log('The value of accumulator: ', accumulator);
+                console.log('The value of currentValue: ', currentValue);
+                return accumulator + currentValue;
+            },
+        10
     );
-
-    const startsWithS = animals.findIndex(
-        animal => { return animal[0] === 's' ? true : false;}
-    );
+    console.log(newSum);
 };
