@@ -8,6 +8,8 @@
     "“terminal.integrated.fontFamily”": "'XBOX Original Bold'",
     "debugConsole.integrated.FontFamily": "'FixedSys Regular'",
     "editor.fontFamily": "'XBOX Original Bold'",
-    "workbench.settings.openDefaultKeybindings": true //'Courier New', monospace
+    "workbench.settings.openDefaultKeybindings": true, //'Courier New', monospace
+
+    "vscode-pets.theme": "castle",
 
 }
