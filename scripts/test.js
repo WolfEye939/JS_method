@@ -299,3 +299,8 @@ function reduceMethod() {
     );
     console.log(newSum);
 };
+
+function pxldepth() {
+    let depth = screen.pixelDepth;
+    console.log(depth);
+}
